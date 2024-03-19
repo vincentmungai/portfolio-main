@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+    
+    <link
+        href="stylesheet/marquee.css"
+        rel="stylesheet" type="text/css" />
+
+ 
+</head>
+
+<body class="body">
+    <div class="page">
+        <div class="w-embed">
+            <style>
+                @keyframes scroll {
+                    from {
+                        transform: translateX(0);
+                    }
+
+                    to {
+                        transform: translateX(calc(-100% - 0.1rem));
+                    }
+                }
+
+                .scroll {
+                    animation: scroll 20s linear infinite;
+                }
+
+                .reverse {
+                    animation-direction: reverse;
+                }
+
+                .marquee-image {
+                    -webkit-transform: translateZ(0);
+                }
+                .marquee-content{
+                    display: flex;
+                    align-items: center;
+                }
+            </style>
+        </div>
+        
+        <div class="marquee">
+            <div class="marquee-content scroll reverse"><img
+                    src="stylesheet/icons/Webflow_logo_2023.svg"
+                    width="120" height="120"
+                    loading="eager" alt="" class="marquee-image" /><img
+                    src="stylesheet/icons/css-3.png"
+                    width="60" height="60"
+                    loading="eager" alt="" class="marquee-image" /><img
+                    src="stylesheet/icons/figma.png"
+                    width="60" height="60"
+                    loading="eager" alt="" class="marquee-image hide-mobile" /><img
+                    src="stylesheet/icons/html-5.png"
+                    width="60" height="60"
+                    loading="eager" alt="" class="marquee-image hide-mobile" /></div>
+            
+                
+                    <div class="marquee-content scroll reverse"><img
+                        src="stylesheet/icons/Webflow_logo_2023.svg"
+                        width="120" height="120"
+                        loading="eager" alt="" class="marquee-image" /><img
+                        src="stylesheet/icons/css-3.png"
+                        width="60" height="60"
+                        loading="eager" alt="" class="marquee-image" /><img
+                        src="stylesheet/icons/figma.png"
+                        width="60" height="60"
+                        loading="eager" alt="" class="marquee-image hide-mobile" /><img
+                        src="stylesheet/icons/html-5.png"
+                        width="60" height="60"
+                        loading="eager" alt="" class="marquee-image hide-mobile" /></div>
+        </div>
+        <div class="marquee">
+            <div class="marquee-content scroll">
+                <div class="text-block">Ultimate battle victorious.</div>
+            </div>
+            <div class="marquee-content scroll">
+                <div class="text-block">Ultimate battle victorious.</div>
+            </div>
+        </div>
+ 
+
+</body>
+
+</html>
