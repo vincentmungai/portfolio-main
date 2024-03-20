@@ -82,8 +82,8 @@ p.has-text-align-right[style*="writing-mode:vertical-rl"] {
     background-color: #333 !important;
 }
 .wp-block-button__link:hover{
-    background-color: #000 !important;
-    color: #ddd !important;
+    background-color: #06ca !important;
+    color: #fff !important;
     transition: all 0.4s ease;
 }
 .wp-block-button__link{
@@ -116,7 +116,7 @@ li::after{
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: #F02D00;
+    background-color:  #06CA;
     border-radius: 1000px;
     transform: scaleX(0);
     transform-origin: right;
