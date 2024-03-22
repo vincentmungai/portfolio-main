@@ -2087,7 +2087,7 @@ html {
   }
   
   :root {
-    --coral: #ebebeb;
+    --coral: transparent;
     --indian-red: #ef445c;
   }
   
@@ -2135,26 +2135,7 @@ html {
     line-height: 1;
   }
   
-  .yt-link {
-    z-index: 10;
-    background-color: var(--indian-red);
-    color: #ebebeb;
-    border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
-    border-left: 1px solid #f0f0f0;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    align-items: center;
-    padding: .5rem;
-    text-decoration: none;
-    transition: background-color .3s;
-    display: flex;
-    position: fixed;
-    top: auto;
-    bottom: 10%;
-    left: auto;
-    right: 0%;
-  }
+  
   
   .yt-link:hover {
     background-color: #9e0000;
@@ -2176,10 +2157,7 @@ html {
     font-size: 18px;
   }
   
-  .body {
-    background-color: #ebebeb;
-  }
-  
+
   .sub-heading {
     color: #000;
     text-align: center;
